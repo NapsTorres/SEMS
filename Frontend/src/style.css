@@ -1,0 +1,20 @@
+/* styles.css */
+@keyframes loading {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+  
+  .loading-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 5px;
+    width: 90%;
+    background-color: #ee3615; /* Tomato color */
+    animation: loading 2s linear infinite;
+  }
+  
+  .card-container {
+    position: relative;
+  }
+  
